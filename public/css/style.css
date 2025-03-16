@@ -1,0 +1,40 @@
+
+.project-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+#modal-content, #edit-modal-content {
+    width: 90%;
+    max-width: 500px;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .flex.justify-between {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .flex.justify-between button {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+

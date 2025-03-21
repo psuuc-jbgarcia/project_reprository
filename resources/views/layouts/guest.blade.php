@@ -5,9 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Reprository') }}</title>
+        <title>{{ config('app.name', '') }}</title>
 
         <!-- Fonts -->
+        <link rel="icon" type="image/png" href="{{ asset('images/logo.jpg') }}">
+
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="{{ asset('images/logo.jpg') }}" rel="stylesheet" />
         <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>

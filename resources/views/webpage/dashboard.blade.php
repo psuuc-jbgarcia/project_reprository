@@ -2,7 +2,7 @@
     <x-slot name="header">
         <div class="flex justify-between items-center">
             <h2 class="font-semibold text-2xl text-gray-800 dark:text-gray-200 leading-tight">
-                {{ __('Projects Reprository') }}
+                {{ __('Projects Repository') }}
             </h2>
            @auth
            <button 
@@ -149,8 +149,8 @@
 @endif
 
 <footer class="w-full bg-gray-700 text-white text-center py-4 shadow-md mt-10 flex flex-col items-center">
-    <p class="text-sm mb-1">&copy; {{ date('Y') }} Jerico Garcia. All Rights Reserved.</p>
-    <p class="text-xs">Developed by <span class="font-bold text-indigo-400">Jerico Garcia</span></p>
+    <p class="text-sm mb-1">&copy; {{ date('Y') }} Jerico Bautista Garcia. All Rights Reserved.</p>
+    <p class="text-xs">All Projects was Created and Developed by <span class="font-bold text-indigo-400">Jerico Bautista Garcia</span></p>
 </footer>
 
 
